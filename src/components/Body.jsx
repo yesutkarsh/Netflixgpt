@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
 import Browse from './Browse'
-import Login from './Login'
 import { createBrowserRouter, useNavigate } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import Signup from './signup'
-import Hit from './Hit'
-
+import Signin from './signin'
+import Login from './signin'
 import { addUser, removeUser } from '../../utils/userSlice'
 export default function Body() {
     
@@ -20,8 +19,8 @@ export default function Body() {
             path:"/signup",
             element:<Signup/>
         },{
-            path:"/test",
-            element:<Hit/>
+            path:"/login",
+            element: <Signin/>
         }
     ])
 

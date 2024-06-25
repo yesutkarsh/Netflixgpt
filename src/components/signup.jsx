@@ -71,7 +71,7 @@ export default function Signup() {
                 </button>
               </div>            
             <p className="text-white m-5">{errorMsg}</p>
-            <p className="text-white m-5"><a href="/">Already have Netflix Accoutn | Sign In</a></p>
+            <p className="text-white m-5"><a href="/login">Already have Netflix Accoutn | Sign In</a></p>
             
           </form>
         </div>
